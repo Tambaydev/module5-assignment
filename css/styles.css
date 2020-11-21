@@ -22,6 +22,7 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
+
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
@@ -33,15 +34,18 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
 .navbar-brand p { /* Kosher cert */
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
+
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
@@ -49,13 +53,16 @@ body {
 #nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
   color: #951C49;
   text-align: center;
 }
+
 #nav-list a:hover {
   background: #E7E7E7;
 }
+
 #nav-list a span {
   font-size: 1.8em;
 }
@@ -63,10 +70,12 @@ body {
 #phone {
   margin-top: 5px;
 }
+
 #phone a { /* Phone number */
   text-align: right;
   padding-bottom: 0;
 }
+
 #phone div { /* We Deliver */
   color: #557c3e;
   text-align: right;
@@ -76,13 +85,16 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
-/* END HEADER */
 
-/* FOOTER */
+/** HEADER END **/
+
+/** FOOTER **/
+
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
@@ -90,31 +102,39 @@ body {
   background-color: #222;
   border-top: 0;
 }
+
 .panel-footer div.row {
   margin-bottom: 35px;
 }
+
 #hours, #address {
   line-height: 2;
 }
+
 #hours > span, #address > span {
   font-size: 1.3em;
 }
+
 #address p {
   color: #557c3e;
   font-size: .8em;
   line-height: 1.8;
 }
+
 #testimonials {
   font-style: italic;
 }
+
 #testimonials p:nth-child(2) {
   margin-top: 25px;
 }
-/* END FOOTER */
+
+/** END FOOTER (*/
 
 
 
-/* HOME PAGE */
+/** HOME PAGE **/
+
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
@@ -128,17 +148,21 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
+
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
+
 #menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
+
 #specials-tile {
   background: url('../images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
+
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
@@ -151,9 +175,11 @@ body {
   color: #fff;
   opacity: .8;
 }
-/* END HOME PAGE */
 
-/* MENU CATEGORIES PAGE */
+/** END HOME PAGE **/
+
+/** MENU CATEGORIES **/
+
 .category-tile { 
   position: relative;
   border: 2px solid #3F0C1F;
@@ -162,6 +188,7 @@ body {
   height: 200px;
   margin: 0 auto 15px;
 }
+
 .category-tile span {
   position: absolute;
   bottom: 0;
@@ -174,6 +201,7 @@ body {
   color: #fff;
   opacity: .8;
 }
+
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
@@ -181,24 +209,30 @@ body {
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
-/* END MENU CATEGORIES PAGE */
 
-/* SINGLE CATEGORY PAGE */
+/** END MENU CATEGORIES **/
+
+/** SINGLE CATEGORY **/
+
 .menu-item-tile {
   margin-bottom: 25px;
 }
+
 .menu-item-tile hr {
   width: 80%;
 }
+
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
   text-align: right;
   margin-top: -15px;
   margin-right: -15px;
 }
+
 .menu-item-tile .menu-item-price span {
   font-size: .6em;
 }
+
 .menu-item-photo {
   position: relative;
   border: 2px solid #3F0C1F; 
@@ -209,6 +243,7 @@ body {
   margin-bottom: 20px;
   max-width: 250px;
 }
+
 .menu-item-photo div {
   position: absolute;
   bottom: 0;
@@ -217,17 +252,21 @@ body {
   background-color: #557c3e;
   text-align: center;
 }
+
 .menu-item-description {
   padding-right: 30px;
 }
+
 h3.menu-item-title {
   margin: 0 0 10px;
 }
+
 .menu-item-details {
   font-size: .9em;
   font-style: italic;
 }
-/* END SINGLE CATEGORY PAGE */
+
+/* END SINGLE CATEGORY**/
 
 
 /********** Large devices only **********/
